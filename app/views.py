@@ -8,4 +8,5 @@ def sign(request):
 
 def About(request):
     return render(request, 'About.html')
-
+def School(request):
+    return render(request, 'school.html')

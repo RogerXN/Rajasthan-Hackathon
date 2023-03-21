@@ -1,0 +1,32 @@
+.intro-grad{
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    padding-top: 4%;
+    padding-bottom: 4%;
+    color: white !important  ;
+}
+.whitebg
+{
+  background-color: white;
+  color: #000;
+}
+/* for fields */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-card {
+  padding: 3% 2%;
+}
+
+.text-muted {
+  font-size: 50%;
+}
+
+.card-header {
+  font-weight: 700;
+}
+.price
+{
+  font-size: 120%;
+}

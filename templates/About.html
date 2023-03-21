@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Us</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+		}
+
+		h1 {
+			color: #333333;
+			text-align: center;
+			margin-top: 50px;
+		}
+
+		p {
+			color: #666666;
+			line-height: 1.5;
+			margin: 20px 0;
+			padding: 0 20px;
+		}
+
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 50px;
+			background-color: #ffffff;
+			box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+		}
+        .image {
+            margin-top: 10px;
+            margin-left: 89px;
+            margin-right: 50px;
+            width: auto;
+            height: auto;
+        }
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>About Us</h1>
+		<p>Welcome to our website! .</p>
+		<p>JOHTO is a platform with many capabilities aimed at enhancing administration of organisations. Our website will have features for various organisational roles, such as school accountant, faculty, and principal. The features differ depending on the field, such as live location, event notification, messaging, and suggestion section for faculty. Our goal is to target a wide range of services, such as medical and business, in order to increase website traffic and make it useful to all..</p>
+		<p>If you have any questions or would like to learn more about our company, please don't hesitate to contact us.</p>
+        {% load static  %}
+         <img src ="{% static 'logo.jpeg' %}" alt ="logo"> 
+
+	</div>
+        
+    
+    
+
+</body>
+</html>
